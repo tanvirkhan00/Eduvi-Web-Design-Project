@@ -35,19 +35,19 @@
                     <label class="font-semibold" for="email">Email</label>
                     <div class="box flex items-center border-2 border-slate-200 rounded-md h-[50px] pl-5 gap-5 mt-2">
                         <i class="fa-regular fa-envelope"></i>
-                        <input class="h-[45px] w-full " type="email" placeholder="bill.sanders@example.com">
+                        <input class="h-[45px] w-full " id="email-box" type="email" placeholder="bill.sanders@example.com">
                     </div>
                 </div>
                 <div class="password">
                     <label class="font-semibold" for="Pass">Password</label>
                     <div class="box flex items-center h-[50px] border-2 border-slate-200 px-5 gap-5 rounded-md mt-2">
                         <i class="fa-solid fa-lock"></i>
-                        <input class="py-2" type="password" placeholder="************">
+                        <input class="py-2" id="password-box" type="password" placeholder="************">
                         <i class="fa-regular fa-eye"></i>
                     </div>
                 </div>
                 <div class="btn-box justify-center my-[20px] bg-violet-600 h-[50px] flex items-center rounded-md">
-                   <a class="text-white" href="#">Sign Up</a>
+                   <button id="btn-box">Sign Up</button>
                 </div>
                 <div class="box xl:flex xl:justify-between xl:items-center">
                     <div class="option flex items-center gap-5 xl:gap-2 my-[20px]">
@@ -62,9 +62,15 @@
 
 
 
+ <!-- js link -->
+ <script src="/js/login.js"></script>
+
 <!-- Fontawsome Kit -->
 
     <script src="https://kit.fontawesome.com/862c32b35b.js" crossorigin="anonymous"></script>
+
+    
+ 
     
 </body>
 </html>
